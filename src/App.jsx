@@ -34,7 +34,7 @@ function App() {
     e.preventDefault();
     console.log(formData);
   
-    window.location.href = 'http://127.0.0.1:5500/my-app/src/second.html';
+    window.location.href = 'http://127.0.0.1:5500/src/second.html';
   };
 
   return (
