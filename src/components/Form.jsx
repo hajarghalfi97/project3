@@ -7,9 +7,9 @@ const Form = ({ formData, handleFormChange, handleFormSubmit }) => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    handleFormSubmit(e); // Handle any additional form submission logic
+    handleFormSubmit(e); 
 
-    // Redirect to success page
+    
     navigate('/success');
   };
 
